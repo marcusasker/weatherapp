@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#searchInput {
+    width: 48%;
+    float: right;
+}
+
+#myLocation {
+    width: 48%;
+    float: left;
+}
+
+#searchBox {
+    width: 40%;
+    margin: auto;
+
+}
+
+#displayBox {
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#cityName {
+    font-weight: bold;
+}
+
+#cityIcon {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.info {
+    margin-bottom: 0px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 75px; 
+}
+
+#header {
+    width: 40%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#secondTitle {
+    margin-top: 15%;
+}
+
+#listBox {
+    width: 40%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#cityName {
+    position: absolute;
+}
+
+@media only screen and (max-width: 1080px) {
+    #searchBox, #displayBox, #listBox {
+        width: 50%;
+    }
+
+    #header {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 865px) {
+    #searchBox, #displayBox, #listBox {
+        width: 70%;
+    }
+
+    #header {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #displayBox {
+        margin-top: 120px;
+    }
+
+    #searchBox, #displayBox, #listBox {
+        width: 90%;
+    }
+
+    #header {
+        width: 90%;
+    }
+    #searchInput {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #myLocation {
+        width: 100%;
+    }
+    .col {
+        padding: 0px;
+    }
+}
